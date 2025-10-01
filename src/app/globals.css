@@ -1,0 +1,19 @@
+/* Updated: 2025-10-01T15:31:55.994Z */
+/* Updated: 2025-10-01T12:47:36.717Z */
+/* Updated: 2025-10-01T11:07:30.858Z */
+/* Updated: 2025-10-01T07:09:53.576Z */
+@import url("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+/* Hide Next.js error overlay portal */
+nextjs-portal {
+  display: none !important;
+}
